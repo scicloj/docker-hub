@@ -7,5 +7,5 @@ python bindings.
 $ docker build . -f Dockerfile.libpythonclj -t libpythonclj-docker
 ...
 
-$ docker run libpythonclj-docker
+$ docker run -p 8888:8888 libpythonclj-docker
 ```
